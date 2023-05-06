@@ -1,0 +1,18 @@
+xcodebuild \
+  -project Unity-iPhone.xcodeproj \
+  -scheme Unity-iPhone \
+  -configuration Release \
+  -archivePath app.xcarchive \
+  archive
+  -allowProvisioningUpdates \
+  CODE_SIGN_STYLE="Manual" \
+  CODE_SIGN_IDENTITY="00008103-000524E926DA001E" \
+  DEVELOPMENT_TEAM="euphonic,Inc." \
+  PROVISIONING_PROFILE_SPECIFIER=GitlabBuildTest.mobileprovision \
+  archive
+
+DYSLPE9KTP
+
+- xcodebuild -project Unity-iPhone.xcodeproj -scheme Unity-iPhone clean archive -archivePath build/AppTest.xcarchive DEVELOPMENT_TEAM=$DEVELOPMENT_TEAM | xcpretty
+- xcodebuild -exportArchive -archivePath build/AppTest.xcarchive -exportPath build -exportOptionsPlist ../exportOptions_enterprise.plist
+artifacts:
