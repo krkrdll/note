@@ -1,5 +1,11 @@
+# Chocolateyとは
+Windowsで動作するパッケージマネージャ。
+
 # インストール済みのパッケージ一覧
-choco list -localonly
+choco list
+
+# Chocolatey地震のアップデート
+choco upgrade chocolatey
 
 # インストール済みパッケージのアップデート
 choco update all
