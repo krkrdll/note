@@ -1,10 +1,10 @@
 # Chocolateyとは
-Windowsで動作するパッケージマネージャ。
+Windows用のパッケージ管理ツール。
 
 # インストール済みのパッケージ一覧
 choco list
 
-# Chocolatey地震のアップデート
+# Chocolateyのアップデート
 choco upgrade chocolatey
 
 # インストール済みパッケージのアップデート
