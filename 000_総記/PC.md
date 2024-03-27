@@ -1,3 +1,6 @@
+456:489733222400=900:
+
+
 新しいPCが届いた。
 
 サービスタグ 4D5GK24
@@ -16,19 +19,28 @@ https://ameblo.jp/dolusandayo-u/entry-12787671853.html
 2. StorageよりSATA/NVMe OperationをRAID OnからAHCI/NVMeに変更
 3. 設定保存し再起動
 
+無事SSDが認識するようになったので、OSのインストールを開始。しかし、ここでも問題発生。
 
+インストールメディアはMicrosoft案内の方法で作成していたが、DELLのネットワークドライバ（WiFi）が認識しないことでOSのインストールができない（今はWindowsのインストールにネットワーク接続は必須のよう）。
 
-インストールディスクの作成
-SSD換装。
-インストール
+DELL案内のDell OS Recovery Toolを使用してインストールメディアを作成しようとしたが、こちらはこちらで「この製品に定義されているosイメージはありません」と表示され、インストールメディアが作成できない。
 
-* Fontインストール
-* WSL設定
+ダメもとで、とWindowsにある回復メディアの作成で作成したところ
+
+Windowsで回復メディアを作成し、無事起動。
+
+# 初期設定
+
+ユーザの作成。初めにローカルユーザとして作成し、その後Microsoftアカウントと連携させる。こうすることでユーザフォルダ（C:\Users）のフォルダ名が任意のフォルダ名にできる。
+
+不要なアプリ削除
+
+Windows Update
 
 # インストールソフト
 
 ## Microsoft Storeからインストール
-* Windows Terminal
+* PowerShell 7
 * Ubuntu
 * Visual Studio
 * Visual Studio Code
@@ -61,3 +73,6 @@ SSD換装。
 * Tablacus Explorer
 * VOICEVOX
 * NEUTRINO(zip)
+
+## AutoHotkey
+SC06E::SC01D
