@@ -1,9 +1,13 @@
-456:489733222400=900:
-
-
 新しいPCが届いた。
 
-サービスタグ 4D5GK24
+Core Ultraを搭載したDELL XPS13。注文したのが3月20日、届いたのが3月26日。カスタムしたにもかかわらず1週間かからず爆速で届いてしまった。
+
+構成は下記。ストレージは別途購入した2TBに換装するので合計すると約30万円ほどになってしまった。
+* CPU - Core Ultra 7 155H
+* メモリ - 32GB
+* ストレージ - 512GB
+
+
 
 # SSD換装
 
@@ -46,7 +50,6 @@ Windows Update
 * Visual Studio Code
 
 ## Chocolateyからインストール
-* git
 * fvm
 * ngrok
 
@@ -54,6 +57,7 @@ Windows Update
 * Chrome
 * カシミール3D
 * ExplorerPatcher
+* git
 * Android Studio
 * Docker Desktop
 * Unity Hub
@@ -61,9 +65,9 @@ Windows Update
 * Melodyne
 * DaVinci Resolve
 * Steam
+* Blender
 
 ## Zip
-* Blender
 * AIMP
 * OBS Studio
 * MPC-BE
@@ -73,6 +77,3 @@ Windows Update
 * Tablacus Explorer
 * VOICEVOX
 * NEUTRINO(zip)
-
-## AutoHotkey
-SC06E::SC01D
