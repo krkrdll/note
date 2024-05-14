@@ -1,3 +1,34 @@
+
+# 2024-04-10 21:48:29
+楽器の分類。
+
+* Bass
+* Brass
+* Guitar
+* Keyboards
+* Organ
+* Percussion
+* Piano
+* Strings
+* Synth Session
+* Vintage Keys
+* Vox
+* Winds
+
+# 2024-04-07 15:35:18
+プラグインのインストールに当たっては、各プラグイン配布サイトでユーザアカウントを作成。その後専用のソフトをインストール、そして目的のプラグインインストールと手間がすごい。共通のプラグイン用マーケットプレイスがあればどれほど便利なことか。
+
+インストールしたプラグインは下記。大部分は購入したハードウェアに付属していたプラグイン。
+
+AMPLE SOUND - Ample Guitar M Lite
+AMPLE SOUND - Ample Bass P Lite
+UVI - Model D
+AIR - Hybrid 3
+AIR - MiniGrand
+AIR - Velvet
+UJAM - Virtual Bassist - ROWDY 2
+Universal Audio - Verve Analog Machines Essentials
+
 # 2024-03-20 08:35:40
 リズム（律動）、メロディー（旋律）、ハーモニー（和声）が音楽の三大要素。
 

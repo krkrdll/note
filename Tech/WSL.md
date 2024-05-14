@@ -39,17 +39,3 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.38.0/install.sh | b
 nvm install --lts
 ```
 
-## phpenv
-
-```
-anyenv install phpenv
-sudo apt install gcc build-essential pkg-config libxml2-dev libkrb5-dev libssl-dev libsqlite3-dev libbz2-dev libpng-dev libjpeg-dev libonig-dev libreawsdline-dev libtidy-dev libxslt-dev libcurl4-openssl-dev libzip-dev libffi-dev
-phpenv install [version]
-```
-
-## pyenv
-
-```
-pyenv install [version]
-```
-
