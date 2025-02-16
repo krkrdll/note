@@ -25,17 +25,3 @@ if [ $(ps -ef | grep [s]sh-agent | wc -l) -eq 0 ]; then
 fi
 source $SSH_AGENT_FILE &>/dev/null
 ```
-
-# 開発環境の構築
-
-## nvm
-https://github.com/nvm-sh/nvm
-
-```
-# nvmのインストール
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.38.0/install.sh | bash
-
-# LTSバージョンのインストール
-nvm install --lts
-```
-
